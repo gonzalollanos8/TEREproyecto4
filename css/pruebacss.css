@@ -1,0 +1,176 @@
+.tortas{
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.tortas:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+    transform:scale(400px);
+}
+.dulces{
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.dulces:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+    transform: scale(400px);
+}
+.personalizados{
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.personalizados:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+    transform: scale(400px);
+}
+.tituloCentrado{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: nowrap;
+   width: 100px; 
+   height: 100px;
+   transition: all 2s;
+   margin: 350px;
+   border: 30px;
+}
+.tituloCentrado:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+}
+h1{
+     display: grid;   
+     grid-template-rows: 100px;
+     text-align: center;
+     color: rgb(58, 34, 3);
+     font-family:'Abel', sans-serif;
+     background-image: linear-gradient(to left , brown , yellow);
+}
+h2{
+    color:  rgb(58, 34, 3);;
+    text-align: center;
+    font-family:'Abel', sans-serif;
+}
+h3{
+    color: rgb(58, 34, 3);
+    text-align: center;
+    font-family: 'Abel', sans-serif;
+    font-style: italic;
+    background-image: linear-gradient(to left , brown , yellow);
+    transform:scale(auto)
+}
+#frase{
+    color: rgb(155, 68, 11);
+}
+.detalle{
+    color: rgb(214, 126, 10);
+}
+li{
+   color: rgb(49, 29, 3);
+   list-style: none;
+   text-decoration: none;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left , brown , yellow);
+    margin: 5px;
+    padding: 0;
+
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/149/782/small/outline-tiramisu-cake-pattern-free-vector.jpg)
+}
+tr{
+    /*background-color: rgb(153, 134, 27);*/
+    background-image: linear-gradient(to bottom ,brown , yellow)
+
+}
+h3{
+
+}
+#SobreNosotros{
+    font-style: italic;
+    background-image: linear-gradient(to left , brown , yellow);
+    transform:scale(200px)
+}  
+header{
+      display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+}
+div{
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+    }
+#menu{
+  display:flex;
+  flex-direction: row;
+  flex-direction: column;
+  margin: 40px;
+}
+.MenuNavegador{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: top;
+
+}
+#opciones{
+     display: grid;   
+     grid-template-columns: 194px 139px 223px;
+     grid-template-rows: 220px 94px;
+     background-image: linear-gradient(to left , brown , yellow);
+}
+#partebaja{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     align-items: center;
+      background-color: brown;
+    } 
+.TitulosBajos{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin: 40px;
+    list-style: upper-latin;
+}
+#ingresar{
+    display: flex;
+    grid-template-columns:100px 100px;
+    grid-template-rows: auto;
+    grid-row-gap : 200px;
+    margin: 50px;
+    justify-items: center;
+
+}
+    
+@media only screen (max-width 375) and (max-width 768) and (max-width 1400){
+    body{
+        background-color: brown;
+    }
+    div{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    }
+}
+

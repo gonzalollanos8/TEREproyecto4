@@ -1,0 +1,183 @@
+@import "tipografia";
+.tortas{
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.tortas:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+    transform:scale(400px);
+}
+.dulces{
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.dulces:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+    transform: scale(400px);
+}
+.personalizados{
+    width: 100px; height: 100px;
+    transition: all 2s;
+}
+.personalizados:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+    transform: scale(400px);
+}
+.seccionsup__titulo{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: nowrap;
+   width: 100px; 
+   height: 100px;
+   transition: all 2s;
+   margin: 350px;
+   border: 30px;
+}
+.seccionsup__titulo:hover{
+    height: 200px; width: 200px;
+    padding: 20px;
+}
+h2{
+    color: rgb(150, 57, 6);
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+h3{
+    color: rgb(58, 34, 3);
+    text-align: center;
+    font-family: 'Abel', sans-serif;}
+#frase{
+    color: rgb(155, 68, 11);
+}
+.detalle{
+    color: rgb(214, 126, 10);
+}
+li{
+   color: rgb(49, 29, 3);
+}
+body{
+    display: flex;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/149/782/small/outline-tiramisu-cake-pattern-free-vector.jpg)
+}
+tr{
+    /*background-color: rgb(153, 134, 27);*/
+    background-image: linear-gradient(to bottom ,brown , yellow)
+
+}
+h3{
+    font-style: italic;
+  background-image: linear-gradient(to left , brown , yellow);
+  transform:scale(auto)
+}
+.SobreNosotros{
+    font-style: italic;
+    background-image: linear-gradient(to left , brown , yellow);
+    transform:scale(200px)
+}  
+div
+    {
+     display: flex;
+     justify-content: flex-start;
+     flex-direction: column;
+
+    }
+#menu{
+     display: grid;   
+     grid-template-columns: 500px 500px 500px;
+     grid-template-rows: 200px 100px;
+     background-image: linear-gradient(to left , brown , yellow);
+}
+#partebaja{
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: nowrap;
+     flex-direction: row;
+     align-items: stretch;
+      background-color: brown;
+    } 
+.TitulosBajos{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    margin: 40px;
+    list-style: upper-latin;
+}
+#ingresar{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-row-gap : 200px;
+    margin: 50px;
+    justify-items: center;
+
+}
+#CentroBajo{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    background-image: linear-gradient(to left, brown, yellow);
+    align-items: stretch;
+}
+#pago{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, brown, yellow);
+}
+.SobreNosotros__titulo{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    background-image: linear-gradient(to left, brown, yellow);
+    align-items: stretch;
+}
+.Seccionbaja__pago{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left, brown, yellow);
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    background-image: linear-gradient(to left , brown , yellow);
+
+         li {
+              padding: 15px;
+              display: inline-block;
+                a {
+                    text-decoration: none;
+                           font-size: 16px;
+                           color: rgb(243, 181, 10);
+                           font-family:'Abel', sans-serif;
+                }
+                }
+   }
+   
+
+
+ 
+
